@@ -113,7 +113,6 @@ margin-left: 50px;
 .overlay {
   position: absolute;
   background-color: #000000;
-  width: 100%;
   opacity: 0.6;
   z-index: 1;
   width: 100%;
@@ -215,14 +214,14 @@ margin-left: 50px;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0%;
-  margin: AUTO  40px 48px 40px;
+  margin: 40px 48px 40px;
  }
 
  .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
  }
 
- .card_type_book{
+ .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
  }
 
