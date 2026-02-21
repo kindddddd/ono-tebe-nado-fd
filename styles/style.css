@@ -53,10 +53,12 @@
   line-height: 24.3px;
   color: #000;
 }
+
 .header__address {
   justify-self: end;
   max-width: 236.49px;
 }
+
 .adress__link_none {
   text-decoration: none;
 }
@@ -116,6 +118,8 @@
 
 .overlay {
   position: absolute;
+  left:0px;
+  top:0px;
   background-color: #000000;
   opacity: 0.6;
   z-index: 1;
@@ -162,15 +166,14 @@
   margin-left: auto;
 }
 
-
 .lots__heading {
-font-weight: 700;
-font-size: 40px;
-line-height: 100%;
-text-transform: uppercase;
-margin-left: 64px;
-display: block;
-min-height: 47px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-left: 64px;
+  display: block;
+  min-height: 47px;
 }
  
 .lots__card-list {
@@ -218,26 +221,26 @@ min-height: 47px;
   text-underline-offset: 4px;
 }
 
- .card__text {
+.card__text {
   z-index: 1;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0%;
   margin: AUTO  40px 48px 40px;
- }
+}
 
- .card_type_film {
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
- }
+}
 
- .card_type_book {
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
- }
+}
 
- .card_type_picture {
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
- }
+}
 
 .lots__look-more-link {
   display: block;
@@ -250,16 +253,18 @@ min-height: 47px;
   margin-left: 64px;
   margin-bottom: 118px;
 }
- 
- .about {
+
+.about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  margin: 164px 24px 180px;
+  margin: 164px 24px 158px;
   column-gap: 25px;
   width: 1052px;
- }
+  align-items: start;
+  box-sizing: border-box;
+}
 
- .about__logo {
+.about__logo {
   width: 240px;
   height: 240px;
   background: #000;
@@ -267,13 +272,15 @@ min-height: 47px;
   display: flex;
   justify-content: center;
   align-items: center;
- }
+  transform: translateY(-7px);
+}
 
 .about__logo-image {
+  display: block;
   width: 148px;
   height: 114px;
   object-fit: contain;
- }
+}
 
 .about__column_logo {
   display: flex;
@@ -311,6 +318,12 @@ min-height: 47px;
   max-width:693px;
 }
 
+.about__text_smaller {
+  max-width: 690px;
+  transform: translateY(-22px);
+  margin-top: :0;
+}
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -326,7 +339,6 @@ min-height: 47px;
 
 .footer__menu {
   justify-self: center;
-
 }
 
 .footer__menu-list {
@@ -355,8 +367,8 @@ min-height: 47px;
   text-decoration: none;
 }
 
- .footer__social-list {
- list-style: none;
+.footer__social-list {
+  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
