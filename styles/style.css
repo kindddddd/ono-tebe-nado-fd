@@ -321,7 +321,7 @@
 .about__text_smaller {
   max-width: 690px;
   transform: translateY(-22px);
-  margin-top: :0;
+  margin-top:0;
 }
 
 .footer {
